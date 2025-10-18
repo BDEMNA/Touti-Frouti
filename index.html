@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Touti FROUTIE — Jus, Glaces et Délices à Libreville</title>
+  <meta name="description" content="Fouti FROUTIE — Jus frais, glaces artisanales et desserts fruités. Deux emplacements : Baie des Rois et Glass. Livraison : +241074167878 / +24165167878" />
+  <link rel="stylesheet" href="styles-index2.css" />
+</head>
+<body>
+<div class="container">
+  <!-- Topbar -->
+  <div class="topbar" role="banner">
+    <div class="brand" aria-hidden="false">
+      <div class="logo">FF</div>
+      <div class="title">
+        <h1>Touti FROUTIE</h1>
+        <p class="small">Jus frais • Glaces • Desserts fruités</p>
+      </div>
+    </div>
+
+    <div class="controls">
+      <select id="place" class="location-select" aria-label="Choisir emplacement">
+        <option value="baie" selected>Baie des Rois</option>
+        <option value="glass">Glass</option>
+      </select>
+
+      <div class="cta-row">
+        <a class="cta" href="tel:+241074167878" aria-label="Appeler Fouti Froutie">Appeler</a>
+        <a class="cta ghost" href="#" id="orderBtn">Commander</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Hero -->
+  <section class="hero" id="hero">
+  <video class="hero-video" id="heroVideo" autoplay muted loop playsinline>
+    <source src="videos/baie.mp4" type="video/mp4">
+    Votre navigateur ne supporte pas la vidéo.
+  </video>
+  <div class="hero-content">
+    <span class="badge">Nouveau • Livraison rapide</span>
+    <h2 id="heroTitle">Fouti FROUTIE — Fraîcheur et gourmandise à Libreville</h2>
+    <p id="heroText">Des jus naturels, milkshakes onctueux et glaces artisanales. Sur place, à emporter ou livraison à domicile.</p>
+    <div class="hero-cta">
+      <a class="btn primary" href="tel:+241074167878">Appeler maintenant</a>
+      <a class="btn ghost" href="#" id="viewMenu">Voir le menu</a>
+    </div>
+  </div>
+</section>
+<!-- ===================== MENU ===================== -->
+<section class="section" id="menu">
+  <h3>Notre Menu</h3>
+
+  <!-- ===================== Catégorie : Jus ===================== -->
+  <div class="cat-row">
+    <div>
+      <strong>Jus</strong>
+      <div class="small">Nature • Milkshakes • Cocktails</div>
+    </div>
+  </div>
+
+  <!-- Sous-catégorie : Nature -->
+  <h4>Nature</h4>
+  <div class="grid">
+    <article class="card" data-category="jus" data-sub="nature">
+      <a href="produits/jus-orange.html">
+        <img src="images/jus-orange.jpg" alt="Jus d’orange">
+        <div><strong>Jus d’orange</strong><span class="price">2 500 XAF</span></div>
+        <div class="small">Pressé à froid, 100% naturel</div>
+      </a>
+    </article>
+    <article class="card" data-category="jus" data-sub="nature">
+      <a href="produits/jus-mangue.html">
+        <img src="images/Jus de mangue.jpeg" alt="Jus de mangue">
+        <div><strong>Jus de mangue</strong><span class="price">2 500 XAF</span></div>
+        <div class="small">Pulpeux et sucré naturellement</div>
+      </a>
+    </article>
+    <article class="card" data-category="jus" data-sub="nature">
+      <a href="produits/jus-ananas.html">
+        <img src="images/jus-dananas.jpg" alt="Jus d’ananas">
+        <div><strong>Jus d’ananas</strong><span class="price">2 500 XAF</span></div>
+        <div class="small">Rafraîchissant et vitaminé</div>
+      </a>
+    </article>
+    <article class="card" data-category="jus" data-sub="nature">
+      <a href="produits/jus-pommes.html">
+        <img src="images/jus-pommes.jpeg" alt="Jus de papaye">
+        <div><strong>Jus de pommes</strong><span class="price">2 500 XAF</span></div>
+        <div class="small">Douceur tropicale</div>
+      </a>
+    </article>
+    <article class="card" data-category="jus" data-sub="nature">
+      <a href="produits/jus-pasteque.html">
+        <img src="images/jus-pasteque.jpeg" alt="Jus de pastèque">
+        <div><strong>Jus de pastèque</strong><span class="price">2 500 XAF</span></div>
+        <div class="small">Hydratant et léger</div>
+      </a>
+    </article>
+    <article class="card" data-category="jus" data-sub="nature">
+      <a href="produits/jus-raisins.html">
+        <img src="images/jus-raisins.jpg" alt="Jus de citron">
+        <div><strong>Jus de raisin</strong><span class="price">2 000 XAF</span></div>
+        <div class="small">Acidulé et tonifiant</div>
+      </a>
+    </article>
+  </div>
+
+  <!-- Sous-catégorie : Milkshakes -->
+  <h4>Milkshakes</h4>
+  <div class="grid">
+    <article class="card"><a href="produits/milkshake-vanille.html"><img src="images/milkshake-vanille.jpeg" alt="Milkshake vanille"><div><strong>Vanille</strong><span class="price">3 000 XAF</span></div><div class="small">Onctueux, crème fouettée</div></a></article>
+    <article class="card"><a href="produits/milkshake-chocolat.html"><img src="images/milkshake-chocolat.jpeg" alt="Milkshake chocolat"><div><strong>Chocolat</strong><span class="price">3 200 XAF</span></div><div class="small">Avec coulis chocolat</div></a></article>
+    <article class="card"><a href="produits/milkshake-fraise.html"><img src="images/milkshake-fraise.jpg" alt="Milkshake fraise"><div><strong>Fraise</strong><span class="price">3 200 XAF</span></div><div class="small">Fraises fraîches mixées</div></a></article>
+    <article class="card"><a href="produits/milkshake-banane.html"><img src="images/milkshake-banane.jpg" alt="Milkshake banane"><div><strong>Banane</strong><span class="price">3 200 XAF</span></div><div class="small">Crémeux et fruité</div></a></article>
+    <article class="card"><a href="produits/milkshake-mangue.html"><img src="images/milkshake-mangue.jpg" alt="milkshake-mangue"><div><strong>mangue</strong><span class="price">3 200 XAF</span></div><div class="small">Avec nappage caramel</div></a></article>
+    <article class="card"><a href="produits/milkshake-freez.html"><img src="images/milkshake-freez.jpeg" alt="milkshake-freez"><div><strong>Freez</strong><span class="price">3 200 XAF</span></div><div class="small">Exotique et doux</div></a></article>
+  </div>
+
+  <!-- Sous-catégorie : Cocktails -->
+  <h4>Cocktails</h4>
+  <div class="grid">
+    <article class="card"><a href="produits/cocktail-classico 1.html"><img src="images/cocktail-classico 1.jpeg" alt="cocktail-classico 1"><div><strong>classico</strong><span class="price">3 500 XAF</span></div><div class="small">Mangue, ananas, passion</div></a></article>
+    <article class="card"><a href="produits/cocktail-fraicheur.html"><img src="images/cocktail-fraicheur.png" alt="cocktail-fraicheur"><div><strong>cocktail-fraicheur</strong><span class="price">3 500 XAF</span></div><div class="small">Papaye, goyave, coco</div></a></article>
+    <article class="card"><a href="produits/cocktail-morning.html"><img src="images/cocktail-morning.png" alt="Cocktail énergie"><div><strong>Morning</strong><span class="price">3 800 XAF</span></div><div class="small">Banane, lait, miel</div></a></article>
+    <article class="card"><a href="produits/cocktail-detox.html"><img src="images/cocktail-detox.jpg" alt="Cocktail detox"><div><strong>Détox</strong><span class="price">3 500 XAF</span></div><div class="small">Concombre, citron, menthe</div></a></article>
+    <article class="card"><a href="produits/cocktail-fruitsrouges.html"><img src="images/cocktail-fruitsrouges.jpg" alt="Cocktail fruits rouges"><div><strong>Fruits rouges</strong><span class="price">3 800 XAF</span></div><div class="small">Fraise, framboise, myrtille</div></a></article>
+    <article class="card"><a href="produits/cocktail-mix.html"><img src="images/cocktail-mix.jpg" alt="Cocktail mix"><div><strong>Mix maison</strong><span class="price">3 800 XAF</span></div><div class="small">Création du chef</div></a></article>
+  </div>
+  <!-- ===================== Catégorie : Glaces ===================== -->
+  <div class="cat-row">
+    <div>
+      <strong>Glaces</strong>
+      <div class="small">Granitos • Ice Roll • Crèmes glacées</div>
+    </div>
+  </div>
+
+  <!-- Sous-catégorie : Granitos -->
+  <h4>Granitos</h4>
+  <div class="grid">
+    <article class="card"><a href="produits/granito-citron.html"><img src="images/granito-citron.jpg" alt="Granito citron"><div><strong>Citron</strong><span class="price">2 500 XAF</span></div><div class="small">Portion 300ml</div></a></article>
+    <article class="card"><a href="produits/granito-fraise.html"><img src="images/granito-fraise.jpg" alt="Granito fraise"><div><strong>Fraise</strong><span class="price">2 500 XAF</span></div><div class="small">Portion 300ml</div></a></article>
+    <article class="card"><a href="produits/granito-ananas.html"><img src="images/granito-ananas.jpg" alt="Granito ananas"><div><strong>Ananas</strong><span class="price">2 500 XAF</span></div><div class="small">Portion 300ml</div></a></article>
+    <article class="card"><a href="produits/granito-pasteque.html"><img src="images/granito-pasteque.jpg" alt="Granito pastèque"><div><strong>Pastèque</strong><span class="price">2 500 XAF</span></div><div class="small">Portion 300ml</div></a></article>
+    <article class="card"><a href="produits/granito-mangue.html"><img src="images/granito-mangue.jpg" alt="Granito mangue"><div><strong>Mangue</strong><span class="price">2 500 XAF</span></div><div class="small">Portion 300ml</div></a></article>
+    <article class="card"><a href="produits/granito-coco.html"><img src="images/granito-coco.jpg" alt="Granito coco"><div><strong>Noix de coco</strong><span class="price">2 500 XAF</span></div><div class="small">Portion 300ml</div></a></article>
+  </div>
+
+  <!-- Sous-catégorie : Ice Roll -->
+  <h4>Ice Roll</h4>
+  <div class="grid">
+    <article class="card"><a href="produits/iceroll-mangue.html"><img src="images/iceroll-mangue.jpg" alt="Ice Roll mangue"><div><strong>Mangue</strong><span class="price">3 600 XAF</span></div><div class="small">Préparé devant vous</div></a></article>
+    <article class="card"><a href="produits/iceroll-fraise.html"><img src="images/iceroll-fraise.jpg" alt="Ice Roll fraise"><div><strong>Fraise</strong><span class="price">3 600 XAF</span></div><div class="small">Préparé devant vous</div></a></article>
+    <article class="card"><a href="produits/iceroll-chocolat.html"><img src="images/iceroll-chocolat.jpg" alt="Ice Roll chocolat"><div><strong>Chocolat</strong><span class="price">3 600 XAF</span></div><div class="small">Préparé devant vous</div></a></article>
+    <article class="card"><a href="produits/iceroll-coco.html"><img src="images/iceroll-coco.jpg" alt="Ice Roll coco"><div><strong>Noix de coco</strong><span class="price">3 600 XAF</span></div><div class="small">Préparé devant vous</div></a></article>
+    <article class="card"><a href="produits/iceroll-fruitsrouges.html"><img src="images/iceroll-fruitsrouges.jpg" alt="Ice Roll fruits rouges"><div><strong>Fruits rouges</strong><span class="price">3 600 XAF</span></div><div class="small">Préparé devant vous</div></a></article>
+    <article class="card"><a href="produits/iceroll-mix.html"><img src="images/iceroll-mix.jpg" alt="Ice Roll mix"><div><strong>Mix maison</strong><span class="price">3 600 XAF</span></div><div class="small">Création du chef</div></a></article>
+  </div>
+
+  <!-- Sous-catégorie : Crèmes glacées -->
+  <h4>Crèmes glacées</h4>
+  <div class="grid">
+    <article class="card"><a href="produits/glace-vanille.html"><img src="images/glace-vanille.jpg" alt="Glace vanille"><div><strong>Vanille</strong><span class="price">2 800 XAF</span></div><div class="small">Boule artisanale</div></a></article>
+    <article class="card"><a href="produits/glace-chocolat.html"><img src="images/glace-chocolat.jpg" alt="Glace chocolat"><div><strong>Chocolat</strong><span class="price">2 800 XAF</span></div><div class="small">Boule artisanale</div></a></article>
+    <article class="card"><a href="produits/glace-fraise.html"><img src="images/glace-fraise.jpg" alt="Glace fraise"><div><strong>Fraise</strong><span class="price">2 800 XAF</span></div><div class="small">Boule artisanale</div></a></article>
+    <article class="card"><a href="produits/glace-cafe.html"><img src="images/glace-cafe.jpg" alt="Glace café"><div><strong>Café</strong><span class="price">2 800 XAF</span></div><div class="small">Boule artisanale</div></a></article>
+    <article class="card"><a href="produits/glace-coco.html"><img src="images/glace-coco.jpg" alt="Glace coco"><div><strong>Noix de coco</strong><span class="price">2 800 XAF</span></div><div class="small">Boule artisanale</div></a></article>
+    <article class="card"><a href="produits/glace-pistache.html"><img src="images/glace-pistache.jpg" alt="Glace pistache"><div><strong>Pistache</strong><span class="price">2 800 XAF</span></div><div class="small">Boule artisanale</div></a></article>
+  </div>
+
+  <!-- ===================== Catégorie : Desserts aux fruits ===================== -->
+   <h4>Gâteaux</h4>
+  <div class="grid">
+    <article class="card"><a href="produits/gateau-choco.html"><img src="images/gateau-choco.jpg" alt="Gâteau chocolat"><div><strong>Chocolat</strong><span class="price">2 200 XAF</span></div><div class="small">Moelleux au chocolat</div></a></article>
+    <article class="card"><a href="produits/gateau-vanille.html"><img src="images/gateau-vanille.jpg" alt="Gâteau vanille"><div><strong>Vanille</strong><span class="price">2 200 XAF</span></div><div class="small">Classique et parfumé</div></a></article>
+    <article class="card"><a href="produits/gateau-citron.html"><img src="images/gateau-citron.jpg" alt="Gâteau citron"><div><strong>Citron</strong><span class="price">2 200 XAF</span></div><div class="small">Acidulé et léger</div></a></article>
+    <article class="card"><a href="produits/gateau-coco.html"><img src="images/gateau-coco.jpg" alt="Gâteau coco"><div><strong>Noix de coco</strong><span class="price">2 200 XAF</span></div><div class="small">Saveur exotique</div></a></article>
+    <article class="card"><a href="produits/gateau-fraise.html"><img src="images/gateau-fraise.jpg" alt="Gâteau fraise"><div><strong>Fraise</strong><span class="price">2 200 XAF</span></div><div class="small">Avec coulis de fraise</div></a></article>
+    <article class="card"><a href="produits/gateau-mix.html"><img src="images/gateau-mix.jpg" alt="Gâteau mix"><div><strong>Mix maison</strong><span class="price">2 200 XAF</span></div><div class="small">Création du chef</div></a></article>
+  </div>
+
+
+  <!-- ===================== Catégorie : Mini-desserts ===================== -->
+  <div class="cat-row">
+    <div>
+      <strong>Mini-desserts</strong>
+      <div class="small">Gâteaux • Tartes • Spécialité maison</div>
+    </div>
+  </div>
+
+  <!-- Sous-catégorie : Gâteaux -->
+  <h4>Gâteaux</h4>
+  <div class="grid">
+    <article class="card"><a href="produits/gateau-choco.html"><img src="images/gateau-choco.jpg" alt="Gâteau chocolat"><div><strong>Chocolat</strong><span class="price">2 200 XAF</span></div><div class="small">Moelleux au chocolat</div></a></article>
+    <article class="card"><a href="produits/gateau-vanille.html"><img src="images/gateau-vanille.jpg" alt="Gâteau vanille"><div><strong>Vanille</strong><span class="price">2 200 XAF</span></div><div class="small">Classique et parfumé</div></a></article>
+    <article class="card"><a href="produits/gateau-citron.html"><img src="images/gateau-citron.jpg" alt="Gâteau citron"><div><strong>Citron</strong><span class="price">2 200 XAF</span></div><div class="small">Acidulé et léger</div></a></article>
+    <article class="card"><a href="produits/gateau-coco.html"><img src="images/gateau-coco.jpg" alt="Gâteau coco"><div><strong>Noix de coco</strong><span class="price">2 200 XAF</span></div><div class="small">Saveur exotique</div></a></article>
+    <article class="card"><a href="produits/gateau-fraise.html"><img src="images/gateau-fraise.jpg" alt="Gâteau fraise"><div><strong>Fraise</strong><span class="price">2 200 XAF</span></div><div class="small">Avec coulis de fraise</div></a></article>
+    <article class="card"><a href="produits/gateau-mix.html"><img src="images/gateau-mix.jpg" alt="Gâteau mix"><div><strong>Mix maison</strong><span class="price">2 200 XAF</span></div><div class="small">Création du chef</div></a></article>
+  </div>
+
+  <!-- Sous-catégorie : Tartes -->
+  <h4>Tartes</h4>
+  <div class="grid">
+    <article class="card"><a href="produits/tarte-pomme.html"><img src="images/tarte-pomme.jpg" alt="Tarte aux pommes"><div><strong>Pomme</strong><span class="price">2 500 XAF</span></div><div class="small">Classique française</div></a></article>
+    <article class="card"><a href="produits/tarte-fraise.html"><img src="images/tarte-fraise.jpg" alt="Tarte aux fraises"><div><strong>Fraise</strong><span class="price">2 800 XAF</span></div><div class="small">Avec crème pâtissière</div></a></article>
+    <article class="card"><a href="produits/tarte-citron.html"><img src="images/tarte-citron.jpg" alt="Tarte citron"><div><strong>Citron</strong><span class="price">2 800 XAF</span></div><div class="small">Meringuée</div></a></article>
+    <article class="card"><a href="produits/tarte-choco.html"><img src="images/tarte-choco.jpg" alt="Tarte chocolat"><div><strong>Chocolat</strong><span class="price">2 800 XAF</span></div><div class="small">Ganache riche</div></a></article>
+    <article class="card"><a href="produits/tarte-coco.html"><img src="images/tarte-coco.jpg" alt="Tarte coco"><div><strong>Noix de coco</strong><span class="price">2 800 XAF</span></div><div class="small">Exotique</div></a></article>
+    <article class="card"><a href="produits/tarte-mix.html"><img src="images/tarte-mix.jpg" alt="Tarte mix"><div><strong>Mix maison</strong><span class="price">2 800 XAF</span></div><div class="small">Création du chef</div></a></article>
+  </div>
+
+  <!-- Sous-catégorie : Spécialité maison -->
+  <h4>Spécialité maison</h4>
+  <div class="grid">
+    <article class="card"><a href="produits/tarte-pomme.html"><img src="images/tarte-pomme.jpg" alt="Tarte aux pommes"><div><strong>Pomme</strong><span class="price">2 500 XAF</span></div><div class="small">Classique française</div></a></article>
+    <article class="card"><a href="produits/tarte-fraise.html"><img src="images/tarte-fraise.jpg" alt="Tarte aux fraises"><div><strong>Fraise</strong><span class="price">2 800 XAF</span></div><div class="small">Avec crème pâtissière</div></a></article>
+    <article class="card"><a href="produits/tarte-citron.html"><img src="images/tarte-citron.jpg" alt="Tarte citron"><div><strong>Citron</strong><span class="price">2 800 XAF</span></div><div class="small">Meringuée</div></a></article>
+    <article class="card"><a href="produits/tarte-choco.html"><img src="images/tarte-choco.jpg" alt="Tarte chocolat"><div><strong>Chocolat</strong><span class="price">2 800 XAF</span></div><div class="small">Ganache riche</div></a></article>
+    <article class="card"><a href="produits/tarte-coco.html"><img src="images/tarte-coco.jpg" alt="Tarte coco"><div><strong>Noix de coco</strong><span class="price">2 800 XAF</span></div><div class="small">Exotique</div></a></article>
+    <article class="card"><a href="produits/tarte-mix.html"><img src="images/tarte-mix.jpg" alt="Tarte mix"><div><strong>Mix maison</strong><span class="price">2 800 XAF</span></div><div class="small">Création du chef</div></a></article>
+  </div>
+  <!-- Suppléments -->
+  <h4>Suppléments</h4>
+  <ul class="small">
+    <li>Coulis (fraise, chocolat, caramel)</li>
+    <li>Noix concassées</li>
+    <li>Chantilly</li>
+    <li>Fruits frais</li>
+  </ul>
+
+  <!-- ===================== Catégorie : Crêperie ===================== -->
+  <div class="cat-row"><div><strong>Crêperie</strong><div class="small">Crêpes • Gaufres • Pancakes</div></div></div>
+  <h4>Crêpes</h4>
+ <div class="grid">
+    <article class="card"><a href="produits/tarte-pomme.html"><img src="images/tarte-pomme.jpg" alt="Tarte aux pommes"><div><strong>Pomme</strong><span class="price">2 500 XAF</span></div><div class="small">Classique française</div></a></article>
+    <article class="card"><a href="produits/tarte-fraise.html"><img src="images/tarte-fraise.jpg" alt="Tarte aux fraises"><div><strong>Fraise</strong><span class="price">2 800 XAF</span></div><div class="small">Avec crème pâtissière</div></a></article>
+    <article class="card"><a href="produits/tarte-citron.html"><img src="images/tarte-citron.jpg" alt="Tarte citron"><div><strong>Citron</strong><span class="price">2 800 XAF</span></div><div class="small">Meringuée</div></a></article>
+    <article class="card"><a href="produits/tarte-choco.html"><img src="images/tarte-choco.jpg" alt="Tarte chocolat"><div><strong>Chocolat</strong><span class="price">2 800 XAF</span></div><div class="small">Ganache riche</div></a></article>
+    <article class="card"><a href="produits/tarte-coco.html"><img src="images/tarte-coco.jpg" alt="Tarte coco"><div><strong>Noix de coco</strong><span class="price">2 800 XAF</span></div><div class="small">Exotique</div></a></article>
+    <article class="card"><a href="produits/tarte-mix.html"><img src="images/tarte-mix.jpg" alt="Tarte mix"><div><strong>Mix maison</strong><span class="price">2 800 XAF</span></div><div class="small">Création du chef</div></a></article>
+  </div>
+  <h4>Gaufres</h4>
+ <div class="grid">
+    <article class="card"><a href="produits/tarte-pomme.html"><img src="images/tarte-pomme.jpg" alt="Tarte aux pommes"><div><strong>Pomme</strong><span class="price">2 500 XAF</span></div><div class="small">Classique française</div></a></article>
+    <article class="card"><a href="produits/tarte-fraise.html"><img src="images/tarte-fraise.jpg" alt="Tarte aux fraises"><div><strong>Fraise</strong><span class="price">2 800 XAF</span></div><div class="small">Avec crème pâtissière</div></a></article>
+    <article class="card"><a href="produits/tarte-citron.html"><img src="images/tarte-citron.jpg" alt="Tarte citron"><div><strong>Citron</strong><span class="price">2 800 XAF</span></div><div class="small">Meringuée</div></a></article>
+    <article class="card"><a href="produits/tarte-choco.html"><img src="images/tarte-choco.jpg" alt="Tarte chocolat"><div><strong>Chocolat</strong><span class="price">2 800 XAF</span></div><div class="small">Ganache riche</div></a></article>
+    <article class="card"><a href="produits/tarte-coco.html"><img src="images/tarte-coco.jpg" alt="Tarte coco"><div><strong>Noix de coco</strong><span class="price">2 800 XAF</span></div><div class="small">Exotique</div></a></article>
+    <article class="card"><a href="produits/tarte-mix.html"><img src="images/tarte-mix.jpg" alt="Tarte mix"><div><strong>Mix maison</strong><span class="price">2 800 XAF</span></div><div class="small">Création du chef</div></a></article>
+  </div>
+  <h4>Pancakes</h4>
+ <div class="grid">
+    <article class="card"><a href="produits/tarte-pomme.html"><img src="images/tarte-pomme.jpg" alt="Tarte aux pommes"><div><strong>Pomme</strong><span class="price">2 500 XAF</span></div><div class="small">Classique française</div></a></article>
+    <article class="card"><a href="produits/tarte-fraise.html"><img src="images/tarte-fraise.jpg" alt="Tarte aux fraises"><div><strong>Fraise</strong><span class="price">2 800 XAF</span></div><div class="small">Avec crème pâtissière</div></a></article>
+    <article class="card"><a href="produits/tarte-citron.html"><img src="images/tarte-citron.jpg" alt="Tarte citron"><div><strong>Citron</strong><span class="price">2 800 XAF</span></div><div class="small">Meringuée</div></a></article>
+    <article class="card"><a href="produits/tarte-choco.html"><img src="images/tarte-choco.jpg" alt="Tarte chocolat"><div><strong>Chocolat</strong><span class="price">2 800 XAF</span></div><div class="small">Ganache riche</div></a></article>
+    <article class="card"><a href="produits/tarte-coco.html"><img src="images/tarte-coco.jpg" alt="Tarte coco"><div><strong>Noix de coco</strong><span class="price">2 800 XAF</span></div><div class="small">Exotique</div></a></article>
+    <article class="card"><a href="produits/tarte-mix.html"><img src="images/tarte-mix.jpg" alt="Tarte mix"><div><strong>Mix maison</strong><span class="price">2 800 XAF</span></div><div class="small">Création du chef</div></a></article>
+  </div>
+
+  <!-- ===================== Catégorie : Petits déjeuners ===================== -->
+  <div class="cat-row"><div><strong>Petits déjeuners</strong><div class="small">Omelettes • Pain de mie • Sandwichs • Boissons chaudes • Miniatures • Manakiches</div></div></div>
+  <h4>Omelettes</h4>
+  <div class="grid">
+    <article class="card"><a href="produits/tarte-pomme.html"><img src="images/tarte-pomme.jpg" alt="Tarte aux pommes"><div><strong>Pomme</strong><span class="price">2 500 XAF</span></div><div class="small">Classique française</div></a></article>
+    <article class="card"><a href="produits/tarte-fraise.html"><img src="images/tarte-fraise.jpg" alt="Tarte aux fraises"><div><strong>Fraise</strong><span class="price">2 800 XAF</span></div><div class="small">Avec crème pâtissière</div></a></article>
+    <article class="card"><a href="produits/tarte-citron.html"><img src="images/tarte-citron.jpg" alt="Tarte citron"><div><strong>Citron</strong><span class="price">2 800 XAF</span></div><div class="small">Meringuée</div></a></article>
+    <article class="card"><a href="produits/tarte-choco.html"><img src="images/tarte-choco.jpg" alt="Tarte chocolat"><div><strong>Chocolat</strong><span class="price">2 800 XAF</span></div><div class="small">Ganache riche</div></a></article>
+    <article class="card"><a href="produits/tarte-coco.html"><img src="images/tarte-coco.jpg" alt="Tarte coco"><div><strong>Noix de coco</strong><span class="price">2 800 XAF</span></div><div class="small">Exotique</div></a></article>
+    <article class="card"><a href="produits/tarte-mix.html"><img src="images/tarte-mix.jpg" alt="Tarte mix"><div><strong>Mix maison</strong><span class="price">2 800 XAF</span></div><div class="small">Création du chef</div></a></article>
+  </div>
+  <h4>Pain de mie</h4>
+ <div class="grid">
+    <article class="card"><a href="produits/tarte-pomme.html"><img src="images/tarte-pomme.jpg" alt="Tarte aux pommes"><div><strong>Pomme</strong><span class="price">2 500 XAF</span></div><div class="small">Classique française</div></a></article>
+    <article class="card"><a href="produits/tarte-fraise.html"><img src="images/tarte-fraise.jpg" alt="Tarte aux fraises"><div><strong>Fraise</strong><span class="price">2 800 XAF</span></div><div class="small">Avec crème pâtissière</div></a></article>
+    <article class="card"><a href="produits/tarte-citron.html"><img src="images/tarte-citron.jpg" alt="Tarte citron"><div><strong>Citron</strong><span class="price">2 800 XAF</span></div><div class="small">Meringuée</div></a></article>
+    <article class="card"><a href="produits/tarte-choco.html"><img src="images/tarte-choco.jpg" alt="Tarte chocolat"><div><strong>Chocolat</strong><span class="price">2 800 XAF</span></div><div class="small">Ganache riche</div></a></article>
+    <article class="card"><a href="produits/tarte-coco.html"><img src="images/tarte-coco.jpg" alt="Tarte coco"><div><strong>Noix de coco</strong><span class="price">2 800 XAF</span></div><div class="small">Exotique</div></a></article>
+    <article class="card"><a href="produits/tarte-mix.html"><img src="images/tarte-mix.jpg" alt="Tarte mix"><div><strong>Mix maison</strong><span class="price">2 800 XAF</span></div><div class="small">Création du chef</div></a></article>
+  </div>
+  <h4>Sandwichs</h4>
+<div class="grid">
+    <article class="card"><a href="produits/tarte-pomme.html"><img src="images/tarte-pomme.jpg" alt="Tarte aux pommes"><div><strong>Pomme</strong><span class="price">2 500 XAF</span></div><div class="small">Classique française</div></a></article>
+    <article class="card"><a href="produits/tarte-fraise.html"><img src="images/tarte-fraise.jpg" alt="Tarte aux fraises"><div><strong>Fraise</strong><span class="price">2 800 XAF</span></div><div class="small">Avec crème pâtissière</div></a></article>
+    <article class="card"><a href="produits/tarte-citron.html"><img src="images/tarte-citron.jpg" alt="Tarte citron"><div><strong>Citron</strong><span class="price">2 800 XAF</span></div><div class="small">Meringuée</div></a></article>
+    <article class="card"><a href="produits/tarte-choco.html"><img src="images/tarte-choco.jpg" alt="Tarte chocolat"><div><strong>Chocolat</strong><span class="price">2 800 XAF</span></div><div class="small">Ganache riche</div></a></article>
+    <article class="card"><a href="produits/tarte-coco.html"><img src="images/tarte-coco.jpg" alt="Tarte coco"><div><strong>Noix de coco</strong><span class="price">2 800 XAF</span></div><div class="small">Exotique</div></a></article>
+    <article class="card"><a href="produits/tarte-mix.html"><img src="images/tarte-mix.jpg" alt="Tarte mix"><div><strong>Mix maison</strong><span class="price">2 800 XAF</span></div><div class="small">Création du chef</div></a></article>
+  </div>
+  <!-- ===================== Catégorie : Petits déjeuners ===================== -->
+  <div class="cat-row">
+    <div>
+      <strong>Petits déjeuners</strong>
+      <div class="small">Omelettes • Pain de mie • Sandwichs • Boissons chaudes • Miniatures • Manakiches</div>
+    </div>
+  </div>
+
+  <!-- Sous-catégorie : Omelettes -->
+  <h4>Omelettes</h4>
+  <div class="grid">
+    <article class="card"><a href="produits/omelette-provencale.html"><img src="images/omelette-provencale.jpg" alt="Omelette provençale"><div><strong>Provençale</strong><span class="price">2 400 XAF</span></div><div class="small">Tomates, oignons, fines herbes</div></a></article>
+    <article class="card"><a href="produits/omelette-fromage.html"><img src="images/omelette-fromage.jpg" alt="Omelette fromage"><div><strong>Fromage</strong><span class="price">2 600 XAF</span></div><div class="small">Œufs et fromage fondant</div></a></article>
+    <article class="card"><a href="produits/omelette-champignons.html"><img src="images/omelette-champignons.jpg" alt="Omelette champignons"><div><strong>Champignons</strong><span class="price">2 800 XAF</span></div><div class="small">Champignons frais sautés</div></a></article>
+    <article class="card"><a href="produits/omelette-nature.html"><img src="images/omelette-nature.jpg" alt="Omelette nature"><div><strong>Nature</strong><span class="price">2 000 XAF</span></div><div class="small">Simple et légère</div></a></article>
+    <article class="card"><a href="produits/omelette-epicee.html"><img src="images/omelette-epicee.jpg" alt="Omelette épicée"><div><strong>Épicée</strong><span class="price">2 600 XAF</span></div><div class="small">Avec piments doux</div></a></article>
+    <article class="card"><a href="produits/omelette-mix.html"><img src="images/omelette-mix.jpg" alt="Omelette mix"><div><strong>Mix maison</strong><span class="price">2 800 XAF</span></div><div class="small">Création du chef</div></a></article>
+  </div>
+
+  <!-- Sous-catégorie : Pain de mie -->
+  <h4>Pain de mie</h4>
+  <div class="grid">
+    <article class="card"><a href="produits/painmie-beurre.html"><img src="images/painmie-beurre.jpg" alt="Pain de mie beurre"><div><strong>Beurre</strong><span class="price">1 500 XAF</span></div><div class="small">Simple et moelleux</div></a></article>
+    <article class="card"><a href="produits/painmie-confiture.html"><img src="images/painmie-confiture.jpg" alt="Pain de mie confiture"><div><strong>Confiture</strong><span class="price">1 800 XAF</span></div><div class="small">Avec confiture maison</div></a></article>
+    <article class="card"><a href="produits/painmie-choco.html"><img src="images/painmie-choco.jpg" alt="Pain de mie chocolat"><div><strong>Chocolat</strong><span class="price">1 800 XAF</span></div><div class="small">Avec pâte à tartiner</div></a></article>
+    <article class="card"><a href="produits/painmie-fromage.html"><img src="images/painmie-fromage.jpg" alt="Pain de mie fromage"><div><strong>Fromage</strong><span class="price">2 000 XAF</span></div><div class="small">Fondant et savoureux</div></a></article>
+    <article class="card"><a href="produits/painmie-miel.html"><img src="images/painmie-miel.jpg" alt="Pain de mie miel"><div><strong>Miel</strong><span class="price">1 800 XAF</span></div><div class="small">Doux et sucré</div></a></article>
+    <article class="card"><a href="produits/painmie-mix.html"><img src="images/painmie-mix.jpg" alt="Pain de mie mix"><div><strong>Mix maison</strong><span class="price">2 000 XAF</span></div><div class="small">Création du chef</div></a></article>
+  </div>
+
+  <!-- Sous-catégorie : Sandwichs -->
+  <h4>Sandwichs</h4>
+  <div class="grid">
+    <article class="card"><a href="produits/sandwich-jambon.html"><img src="images/sandwich-jambon.jpg" alt="Sandwich jambon"><div><strong>Jambon</strong><span class="price">2 500 XAF</span></div><div class="small">Avec crudités</div></a></article>
+    <article class="card"><a href="produits/sandwich-fromage.html"><img src="images/sandwich-fromage.jpg" alt="Sandwich fromage"><div><strong>Fromage</strong><span class="price">2 500 XAF</span></div><div class="small">Simple et savoureux</div></a></article>
+    <article class="card"><a href="produits/sandwich-poulet.html"><img src="images/sandwich-poulet.jpg" alt="Sandwich poulet"><div><strong>Poulet</strong><span class="price">2 800 XAF</span></div><div class="small">Grillé et assaisonné</div></a></article>
+    <article class="card"><a href="produits/sandwich-thon.html"><img src="images/sandwich-thon.jpg" alt="Sandwich thon"><div><strong>Thon</strong><span class="price">2 800 XAF</span></div><div class="small">Avec mayonnaise</div></a></article>
+    <article class="card"><a href="produits/sandwich-omelette.html"><img src="images/sandwich-omelette.jpg" alt="Sandwich omelette"><div><strong>Omelette</strong><span class="price">2 500 XAF</span></div><div class="small">Œufs et légumes</div></a></article>
+    <article class="card"><a href="produits/sandwich-mix.html"><img src="images/sandwich-mix.jpg" alt="Sandwich mix"><div><strong>Mix maison</strong><span class="price">3 000 XAF</span></div><div class="small">Création du chef</div></a></article>
+  </div>
+
+  <!-- Sous-catégorie : Boissons chaudes -->
+  
+
+  <!-- Sous-catégorie : Boissons chaudes -->
+  <h4>Boissons chaudes</h4>
+  <div class="grid">
+    <article class="card"><a href="produits/cafe.html"><img src="images/cafe.jpg" alt="Café"><div><strong>Café</strong><span class="price">1 500 XAF</span></div><div class="small">Expresso ou allongé</div></a></article>
+    <article class="card"><a href="produits/the.html"><img src="images/the.jpg" alt="Thé"><div><strong>Thé</strong><span class="price">1 500 XAF</span></div><div class="small">Vert ou noir</div></a></article>
+    <article class="card"><a href="produits/chocolat-chaud.html"><img src="images/chocolat-chaud.jpg" alt="Chocolat chaud"><div><strong>Chocolat chaud</strong><span class="price">2 000 XAF</span></div><div class="small">Avec lait entier</div></a></article>
+    <article class="card"><a href="produits/cappuccino.html"><img src="images/cappuccino.jpg" alt="Cappuccino"><div><strong>Cappuccino</strong><span class="price">2 200 XAF</span></div><div class="small">Avec mousse de lait</div></a></article>
+    <article class="card"><a href="produits/latte.html"><img src="images/latte.jpg" alt="Latte"><div><strong>Latte</strong><span class="price">2 200 XAF</span></div><div class="small">Douceur lactée</div></a></article>
+    <article class="card"><a href="produits/infusion.html"><img src="images/infusion.jpg" alt="Infusion"><div><strong>Infusion</strong><span class="price">1 800 XAF</span></div><div class="small">Plantes aromatiques</div></a></article>
+  </div>
+
+  <!-- Sous-catégorie : Miniatures -->
+  <h4>Miniatures</h4>
+  <div class="grid">
+    <article class="card"><a href="produits/mini-croissant.html"><img src="images/mini-croissant.jpg" alt="Mini croissant"><div><strong>Croissant</strong><span class="price">1 200 XAF</span></div><div class="small">Pur beurre</div></a></article>
+    <article class="card"><a href="produits/mini-painchoco.html"><img src="images/mini-painchoco.jpg" alt="Mini pain au chocolat"><div><strong>Pain au chocolat</strong><span class="price">1 200 XAF</span></div><div class="small">Feuilleté gourmand</div></a></article>
+    <article class="card"><a href="produits/mini-brioche.html"><img src="images/mini-brioche.jpg" alt="Mini brioche"><div><strong>Brioche</strong><span class="price">1 200 XAF</span></div><div class="small">Moelleuse</div></a></article>
+    <article class="card"><a href="produits/mini-donut.html"><img src="images/mini-donut.jpg" alt="Mini donut"><div><strong>Donut</strong><span class="price">1 200 XAF</span></div><div class="small">Sucré et tendre</div></a></article>
+    <article class="card"><a href="produits/mini-muffin.html"><img src="images/mini-muffin.jpg" alt="Mini muffin"><div><strong>Muffin</strong><span class="price">1 200 XAF</span></div><div class="small">Chocolat ou fruits</div></a></article>
+    <article class="card"><a href="produits/mini-mix.html"><img src="images/mini-mix.jpg" alt="Mini mix"><div><strong>Mix maison</strong><span class="price">1 500 XAF</span></div><div class="small">Assortiment varié</div></a></article>
+  </div>
+
+  <!-- Sous-catégorie : Manakiches -->
+  <h4>Manakiches</h4>
+  <div class="grid">
+    <article class="card"><a href="produits/manakiche-zaatar.html"><img src="images/manakiche-zaatar.jpg" alt="Manakiche zaatar"><div><strong>Zaatar</strong><span class="price">2 500 XAF</span></div><div class="small">Thym libanais</div></a></article>
+    <article class="card"><a href="produits/manakiche-fromage.html"><img src="images/manakiche-fromage.jpg" alt="Manakiche fromage"><div><strong>Fromage</strong><span class="price">2 800 XAF</span></div><div class="small">Fondant</div></a></article>
+    <article class="card"><a href="produits/manakiche-viande.html"><img src="images/manakiche-viande.jpg" alt="Manakiche viande"><div><strong>Viande</strong><span class="price">3 000 XAF</span></div><div class="small">Épicée</div></a></article>
+    <article class="card"><a href="produits/manakiche-poulet.html"><img src="images/manakiche-poulet.jpg" alt="Manakiche poulet"><div><strong>Poulet</strong><span class="price">3 000 XAF</span></div><div class="small">Mariné</div></a></article>
+    <article class="card"><a href="produits/manakiche-mix.html"><img src="images/manakiche-mix.jpg" alt="Manakiche mix"><div><strong>Mix maison</strong><span class="price">3 200 XAF</span></div><div class="small">Création du chef</div></a></article>
+    <article class="card"><a href="produits/manakiche-legumes.html"><img src="images/manakiche-legumes.jpg" alt="Manakiche légumes"><div><strong>Légumes</strong><span class="price">2 800 XAF</span></div><div class="small">Végétarien</div></a></article>
+  </div>
+
+    <!-- ===================== Catégorie : Salés ===================== -->
+  <div class="cat-row">
+    <div>
+      <strong>Salés</strong>
+      <div class="small">Pizza • Chawarma • Salades</div>
+    </div>
+  </div>
+
+  <!-- Sous-catégorie : Pizza -->
+  <h4>Pizza</h4>
+  <div class="grid">
+    <article class="card"><a href="produits/pizza-margherita.html"><img src="images/pizza-margherita.jpg" alt="Pizza Margherita"><div><strong>Margherita</strong><span class="price">4 500 XAF</span></div><div class="small">Tomate, mozzarella, basilic</div></a></article>
+    <article class="card"><a href="produits/pizza-reine.html"><img src="images/pizza-reine.jpg" alt="Pizza Reine"><div><strong>Reine</strong><span class="price">5 000 XAF</span></div><div class="small">Jambon, champignons</div></a></article>
+    <article class="card"><a href="produits/pizza-4fromages.html"><img src="images/pizza-4fromages.jpg" alt="Pizza 4 fromages"><div><strong>4 Fromages</strong><span class="price">5 200 XAF</span></div><div class="small">Mozza, bleu, chèvre, emmental</div></a></article>
+    <article class="card"><a href="produits/pizza-pepperoni.html"><img src="images/pizza-pepperoni.jpg" alt="Pizza Pepperoni"><div><strong>Pepperoni</strong><span class="price">5 200 XAF</span></div><div class="small">Épicée et généreuse</div></a></article>
+    <article class="card"><a href="produits/pizza-poulet.html"><img src="images/pizza-poulet.jpg" alt="Pizza Poulet"><div><strong>Poulet</strong><span class="price">5 000 XAF</span></div><div class="small">Poulet mariné et légumes</div></a></article>
+    <article class="card"><a href="produits/pizza-mix.html"><img src="images/pizza-mix.jpg" alt="Pizza Mix maison"><div><strong>Mix maison</strong><span class="price">5 500 XAF</span></div><div class="small">Création du chef</div></a></article>
+  </div>
+
+  <!-- Sous-catégorie : Chawarma -->
+  <h4>Chawarma</h4>
+  <div class="grid">
+    <article class="card"><a href="produits/chawarma-poulet.html"><img src="images/chawarma-poulet.jpg" alt="Chawarma poulet"><div><strong>Poulet</strong><span class="price">3 500 XAF</span></div><div class="small">Poulet mariné, sauce blanche</div></a></article>
+    <article class="card"><a href="produits/chawarma-boeuf.html"><img src="images/chawarma-boeuf.jpg" alt="Chawarma boeuf"><div><strong>Bœuf</strong><span class="price">3 800 XAF</span></div><div class="small">Bœuf grillé, crudités</div></a></article>
+    <article class="card"><a href="produits/chawarma-mix.html"><img src="images/chawarma-mix.jpg" alt="Chawarma mix"><div><strong>Mix</strong><span class="price">4 000 XAF</span></div><div class="small">Poulet + bœuf</div></a></article>
+    <article class="card"><a href="produits/chawarma-falafel.html"><img src="images/chawarma-falafel.jpg" alt="Chawarma falafel"><div><strong>Falafel</strong><span class="price">3 200 XAF</span></div><div class="small">Option végétarienne</div></a></article>
+    <article class="card"><a href="produits/chawarma-fromage.html"><img src="images/chawarma-fromage.jpg" alt="Chawarma fromage"><div><strong>Fromage</strong><span class="price">3 800 XAF</span></div><div class="small">Avec fromage fondant</div></a></article>
+    <article class="card"><a href="produits/chawarma-special.html"><img src="images/chawarma-special.jpg" alt="Chawarma spécial"><div><strong>Spécial maison</strong><span class="price">4 200 XAF</span></div><div class="small">Recette du chef</div></a></article>
+  </div>
+
+  <!-- Sous-catégorie : Salades -->
+  <h4>Salades</h4>
+  <div class="grid">
+    <article class="card"><a href="produits/salade-cesar.html"><img src="images/salade-cesar.jpg" alt="Salade César"><div><strong>César</strong><span class="price">3 500 XAF</span></div><div class="small">Poulet, parmesan, croûtons</div></a></article>
+    <article class="card"><a href="produits/salade-grecque.html"><img src="images/salade-grecque.jpg" alt="Salade grecque"><div><strong>Grecque</strong><span class="price">3 200 XAF</span></div><div class="small">Feta, olives, tomates</div></a></article>
+    <article class="card"><a href="produits/salade-nicoise.html"><img src="images/salade-nicoise.jpg" alt="Salade niçoise"><div><strong>Niçoise</strong><span class="price">3 500 XAF</span></div><div class="small">Thon, œufs, haricots verts</div></a></article>
+    <article class="card"><a href="produits/salade-fruitsmer.html"><img src="images/salade-fruitsmer.jpg" alt="Salade fruits de mer"><div><strong>Fruits de mer</strong><span class="price">4 200 XAF</span></div><div class="small">Crevettes, calamars</div></a></article>
+    <article class="card"><a href="produits/salade-legumes.html"><img src="images/salade-legumes.jpg" alt="Salade de légumes"><div><strong>Légumes</strong><span class="price">2 800 XAF</span></div><div class="small">Fraîche et croquante</div></a></article>
+    <article class="card"><a href="produits/salade-mix.html"><img src="images/salade-mix.jpg" alt="Salade mix"><div><strong>Mix maison</strong><span class="price">3 800 XAF</span></div><div class="small">Création du chef</div></a></article>
+  </div>
+
+
+  <!-- Footer -->
+  <footer class="footer" role="contentinfo">
+    <div class="row">
+      <div>
+        <strong>Fouti FROUTIE</strong>
+        <div class="small">Baie des Rois • Glass — Libreville, Gabon</div>
+      </div>
+      <div class="small">
+        Livraison : <a href="tel:+241074167878">+241 074 16 78 78</a> • <a href="tel:+24165167878">+241 65 16 78 78</a>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="small">Suivez-nous : Facebook fb.com/toutifroutiplus • Instagram @toutifoutifplus • TikTok @toutif_froutif_plus</div>
+      <div class="small">© <span id="year"></span> Fouti FROUTIE — Tous droits réservés</div>
+    </div>
+  </footer>
+</div>
+
+<!-- Modal -->
+<div id="modal" class="modal" aria-hidden="true" role="dialog">
+  <div class="modal-card" role="document">
+    <img id="modalImg" src="" alt="">
+    <div class="modal-info">
+      <h4 id="modalTitle">Titre</h4>
+      <div id="modalDesc" class="small">Description</div>
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-top:8px">
+        <div style="font-weight:800;color:var(--accent);" id="modalPrice">2 000 XAF</div>
+        <div>
+          <button class="btn ghost" onclick="closeModal()">Fermer</button>
+          <a class="btn primary" id="orderTel" href="tel:+241074167878">Commander</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="script-index2.js"></script>
+<!-- Icône toggle mode (affichée uniquement sur mobile) -->
+<div id="toggleDesktop" class="desktop-toggle" title="Basculer en mode ordinateur">
+  🖥️
+</div>
+
+</body>
+</html>
